@@ -38,5 +38,5 @@
     CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
 }
-
+    
 @end
