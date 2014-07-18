@@ -41,7 +41,7 @@
 		<array>
 			<dict>
 				<key>UUID</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -71,8 +71,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-36</real>
-							<real>-39</real>
+							<real>0.0</real>
+							<real>0.0</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -85,8 +85,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
+							<real>0.5</real>
+							<real>0.5</real>
 						</array>
 					</dict>
 					<dict>
@@ -130,7 +130,7 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>animatedProperties</key>
 				<dict>
 					<key>0</key>
@@ -163,11 +163,26 @@
 									<key>name</key>
 									<string>rotation</string>
 									<key>time</key>
+									<real>0.033333335071802139</real>
+									<key>type</key>
+									<integer>2</integer>
+									<key>value</key>
+									<real>-15</real>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+									<key>name</key>
+									<string>rotation</string>
+									<key>time</key>
 									<real>1</real>
 									<key>type</key>
 									<integer>2</integer>
 									<key>value</key>
-									<real>-20</real>
+									<real>20</real>
 								</dict>
 								<dict>
 									<key>easing</key>
@@ -221,8 +236,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-2</real>
-							<real>11</real>
+							<real>-3</real>
+							<real>-25</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -236,7 +251,7 @@
 						<key>value</key>
 						<array>
 							<real>0.0</real>
-							<real>1</real>
+							<real>0.10000000149011612</real>
 						</array>
 					</dict>
 					<dict>
@@ -254,7 +269,7 @@
 					</dict>
 					<dict>
 						<key>baseValue</key>
-						<real>-20</real>
+						<real>0.0</real>
 						<key>name</key>
 						<string>rotation</string>
 						<key>type</key>
@@ -416,11 +431,11 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>2</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
-			<real>193.60813903808594</real>
+			<real>161.54353332519531</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
 			<key>soundChannel</key>
