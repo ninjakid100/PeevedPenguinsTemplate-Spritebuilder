@@ -2,15 +2,13 @@
 //  Penguin.m
 //  PeevedPenguins
 //
-//  Created by Felicia Pace on 7/13/14.
+//  Created by Felicia Pace on 7/18/14.
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
 #import "Penguin.h"
 
 @implementation Penguin
-
-/*
 - (id)init {
     self = [super init];
     
@@ -20,6 +18,4 @@
     
     return self;
 }
-*/
-
 @end
