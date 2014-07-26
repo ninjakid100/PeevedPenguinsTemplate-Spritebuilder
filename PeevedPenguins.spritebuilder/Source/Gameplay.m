@@ -16,6 +16,8 @@
     CCNode *_levelNode;
     CCNode *_contentNode;
     CCNode *_pullbackNode;
+    CCNode *_mouseJointNode;
+    CCNode *_mouseJoint;
 }
 
 // is called when CCB file has completed loading
@@ -32,7 +34,7 @@
     // nothing shall collide with our invisible nodes
     _pullbackNode.physicsBody.collisionMask = @[];
     
-    
+    _mouseJointNode.physicsBody.collisionMask = @[];
 }
 
 // called on every touch in this scene
@@ -109,10 +111,5 @@
     // reload this level
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
 }
-
-CCNode *_mouseJointNode;
-CCPhysicsJoint *_mouseJoint;
-
-
 
 @end
