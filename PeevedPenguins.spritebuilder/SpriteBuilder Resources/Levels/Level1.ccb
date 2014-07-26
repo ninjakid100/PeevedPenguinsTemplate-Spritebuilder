@@ -1057,8 +1057,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>249</real>
-							<real>203.5</real>
+							<real>256</real>
+							<real>202.5</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1086,6 +1086,8 @@
 						<string>Seal.ccb</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
