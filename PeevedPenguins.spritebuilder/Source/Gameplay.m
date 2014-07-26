@@ -2,7 +2,7 @@
 //  Gameplay.m
 //  PeevedPenguins
 //
-//  Created by Felicia Pace on 14.07.13.
+//  Created by Vincent Pace on 14.07.13. 
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
@@ -54,8 +54,8 @@
     
     // ensure followed object is in visible are when starting
     /* self.position = ccp(0, 0);
-     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-     [self runAction:follow]; */
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
+    [self runAction:follow]; */
     
     // same as above but applying the scroll to the content node instead of the whole thing
     self.position = ccp(0, 0);

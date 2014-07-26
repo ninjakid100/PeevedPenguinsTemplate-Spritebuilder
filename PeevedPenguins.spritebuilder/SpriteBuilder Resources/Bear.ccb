@@ -163,21 +163,6 @@
 									<key>name</key>
 									<string>rotation</string>
 									<key>time</key>
-									<real>0.033333335071802139</real>
-									<key>type</key>
-									<integer>2</integer>
-									<key>value</key>
-									<real>-15</real>
-								</dict>
-								<dict>
-									<key>easing</key>
-									<dict>
-										<key>type</key>
-										<integer>1</integer>
-									</dict>
-									<key>name</key>
-									<string>rotation</string>
-									<key>time</key>
 									<real>1</real>
 									<key>type</key>
 									<integer>2</integer>
@@ -236,8 +221,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-8</real>
-							<real>8</real>
+							<real>-5</real>
+							<real>10</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -435,7 +420,7 @@
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
-			<real>161.54353332519531</real>
+			<real>250.005615234375</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
 			<key>soundChannel</key>
