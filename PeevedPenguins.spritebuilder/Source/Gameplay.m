@@ -31,6 +31,8 @@
     
     // nothing shall collide with our invisible nodes
     _pullbackNode.physicsBody.collisionMask = @[];
+    
+    _mouseJointNode.physicsBody.collisionMask = @[];
 }
 
 // called on every touch in this scene
@@ -82,7 +84,6 @@
 CCNode *_mouseJointNode;
 CCPhysicsJoint *_mouseJoint;
 
-_mouseJointNode.physicsBody.collisionMask = @[];
 
 - (void)touchMoved:(UITouch *)touch withEvent:(UIEvent *)event
 {
@@ -100,13 +101,16 @@ _mouseJointNode.physicsBody.collisionMask = @[];
     }
 }
 
-- (void)releaseCatapult {
-    if (_mouseJoint != nil)
-    {
-        // releases the joint and lets the catapult snap back
-        [_mouseJoint invalidate];
-        _mouseJoint = nil;
-    }
+-(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    // when touches end, meaning the user releases their finger, release the catapult
+    [self releaseCatapult];
+}
+
+-(void) touchCancelled:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    // when touches are cancelled, meaning the user drags their finger off the screen or onto something else, release the catapult
+    [self releaseCatapult];
 }
 
 @end
